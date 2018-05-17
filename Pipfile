@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+"fa29c1a" = {file = "http://download.pytorch.org/whl/cpu/torch-0.4.0-cp36-cp36m-linux_x86_64.whl"}
+numpy = "*"
+pandas = "*"
+scipy = "*"
+pyyaml = "*"
+
+[requires]
+python_version = "3.6"
